@@ -1,0 +1,15 @@
+[build]
+  publish = "out"
+  command = "npm run build-prod"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  exclude = [
+    '**/netlify-contact-form-shim.html',
+    '**/google9971f56c7edbb5b3.html'
+  ]
