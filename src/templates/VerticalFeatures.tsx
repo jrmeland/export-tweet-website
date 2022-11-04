@@ -2,15 +2,16 @@ import {
   VerticalFeatureRow,
   SingleVerticalFeatureRow,
 } from "../feature/VerticalFeatureRow";
-import { ContactForm } from "../form/ContactForm";
+import { TweetLinkForm } from "../form/TweetLinkForm";
 import { Section } from "../layout/Section";
 
 const VerticalFeatures = () => (
   <Section
-    title="What you get"
-    description="We algorithmically generate lists of leads based on the development potential of a property. You can specify general criteria such as location, lot size, current valuation, etc. We give you a list of properties ready for you to convert to willing sellers."
+    title="Easily and quickly export a Twitter Thread"
+    description="Drop you link in here and we'll do the rest"
   >
-    <VerticalFeatureRow
+    <TweetLinkForm />
+    {/* <VerticalFeatureRow
       title="Try it out"
       description={
         <span>
@@ -26,12 +27,12 @@ const VerticalFeatures = () => (
       }
       image="/assets/images/site-stats.jpg"
       imageAlt="First feature alt text"
-    />
-    <SingleVerticalFeatureRow
+    /> */}
+    {/* <SingleVerticalFeatureRow
       id="contactForm"
       title="Lets talk."
       description={<ContactForm />}
-    />
+    /> */}
   </Section>
 );
 

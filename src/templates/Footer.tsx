@@ -7,11 +7,7 @@ const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter logo={<Logo />} iconList={[]}>
-        <li>
-          <a href="https://www.freepik.com/vectors/business">
-            Business vector created by stories - www.freepik.com
-          </a>
-        </li>
+        <p>All rights reserved</p>
       </CenteredFooter>
     </Section>
   </Background>
