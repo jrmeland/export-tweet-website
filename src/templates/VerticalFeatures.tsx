@@ -1,7 +1,7 @@
-import {
-  VerticalFeatureRow,
-  SingleVerticalFeatureRow,
-} from "../feature/VerticalFeatureRow";
+// import {
+//   VerticalFeatureRow,
+//   SingleVerticalFeatureRow,
+// } from "../feature/VerticalFeatureRow";
 import { TweetLinkForm } from "../form/TweetLinkForm";
 import { Section } from "../layout/Section";
 
