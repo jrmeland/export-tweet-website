@@ -32,10 +32,10 @@ const VerticalFeatures = () => {
         <form onSubmit={handleSubmit((data) => handleTweetLinkSubmit(data))}>
           <input
             {...register("link")}
-            placeholder="tweetLink"
-            className="bg-white border border-slate-300 rounded-md text-sm shadow-sm"
+            placeholder="Tweet Link"
+            className="bg-white border border-slate-300 rounded-md text-sm shadow-sm p-1 w-100"
           />
-          <input type="submit" />
+            <button className={styles.exportButton} type="submit">Submit</button>
         </form>
       </div>
       {tweets && (
